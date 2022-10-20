@@ -670,6 +670,30 @@ a:hover {
 /*MIN-WITH: 360PX*/
 
 @media (max-width: 560px) {
+
+    /*TOUR*/
+.container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+    "date-1 location-1 country-1 ticket-1"
+    "date-2 location-2 country-2 ticket-2"
+    "date-3 location-3 country-3 ticket-3"
+    "date-4 location-4 country-4 ticket-4";
+    
+    justify-content: left space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-left: 5%;
+    align-content: center; 
+    background-color: rgb(237,192,177);
+    flex-wrap: wrap;
+    
+}
     /*STORE GRID*/
 
     /*GRIDS CDS*/
@@ -693,20 +717,20 @@ a:hover {
 
     /*CDS*/
     .cd-img-1{
-        width: 350px;
+        width: 250px;
     }
     .cd-1-title {
         margin-top: 2%;
     }
     .cd-img-2{
-        width: 350px;
+        width: 250px;
     }
     .cd-2-title {
         margin-top: 2%;
     }
 
     .cd-img-3{
-        width: 350px;
+        width: 250px;
     }
     .cd-3-title {
         margin-top: 2%;
@@ -733,20 +757,20 @@ a:hover {
 
     /*VINYL*/
     .vinyl-img-1{
-        width: 350px;
+        width: 250px;
     }
     .vinyl-1-title {
         margin-top: 2%;
     }
     .vinyl-img-2{
-        width: 350px;
+        width: 250px;
     }
     .vinyl-2-title {
         margin-top: 2%;
     }
 
     .vinyl-img-3{
-        width: 350px;
+        width: 250px;
     }
     .vinyl-3-title {
         margin-top: 2%;
@@ -773,20 +797,20 @@ a:hover {
 
         /*POSTER*/
         .poster-img-1{
-            width: 350px;
+            width: 250px;
         }
         .poster-1-title {
             margin-top: 2%;
         }
         .poster-img-2{
-            width: 350px;
+            width: 250px;
         }
         .poster-2-title {
             margin-top: 2%;
         }
 
         .poster-img-3{
-            width: 350px;
+            width: 250px;
         }
         .poster-3-title {
             margin-top: 2%;
