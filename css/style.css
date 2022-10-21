@@ -167,7 +167,7 @@ footer {
     padding-left: 5%;
     align-content: center; 
     background-color: rgb(237,192,177);
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     
 }
 
@@ -670,6 +670,151 @@ a:hover {
 /*MIN-WITH: 360PX*/
 
 @media (max-width: 560px) {
+
+    /*TOUR*/
+
+    .container {
+       
+        display: grid;
+        grid-template-columns:80vw;
+        grid-template-rows: repeat(16, 5vh);
+        grid-template-areas:
+        "date-1"
+        "location-1" 
+        "country-1" 
+        "ticket-1"
+        "date-2"
+        "location-2" 
+        "country-2" 
+        "ticket-2"
+        "date-3" 
+        "location-3" 
+        "country-3" 
+        "ticket-3"
+        "date-4" 
+        "location-4" 
+        "country-4" 
+        "ticket-4";
+        background-color: rgb(237,192,177);
+        flex-wrap: nowrap;
+        justify-items: center;
+        font-size: 0.8rem;
+    }
+
+    .date-1 {
+        grid-area: date-1;
+        justify-self: center;
+        align-self: center;
+        border: none;  
+    }
+    .date-2 {
+        grid-area: date-2;
+        justify-self: center;
+        align-self: center;
+        border: none;
+    }
+    .date-3 {
+        grid-area: date-3;
+        justify-self: center;
+        align-self: center;
+        border: none;
+    }
+    .date-4 {
+        grid-area: date-4;
+        justify-self: center;
+        align-self: center;
+        border: none;
+    }
+    
+    .location-1 {
+        grid-area: location-1;
+        align-self: center;
+
+        border: none;
+    }
+    .location-2 {
+        grid-area: location-2;
+        align-self: center;
+        padding: 2px;
+        border: none;
+
+    }
+    .location-3 {
+        grid-area: location-3;
+        align-self: center;
+        padding: 2px;
+        border: none;
+
+    }
+    .location-4 {
+        grid-area: location-4;
+        align-self: center;
+        padding: 2px;
+        border: none;
+
+    }
+    
+    .country-1 {
+        grid-area: country-1;
+        align-self: center;
+        padding: 2px;
+        border: none;     
+
+    }
+
+    .country-2 {
+        grid-area: country-2;
+        align-self: center;
+        padding: 2px;
+        border: none;
+
+    }
+    .country-3 {
+        grid-area: country-3;
+        align-self: center;
+        padding: 2px;
+        border: none;
+
+    }
+    .country-4 {
+        grid-area: country-4;  
+        align-self: center; 
+        padding: 2px;
+        border: none;
+    }
+    
+    .ticket-1 {
+        grid-area: ticket-1;
+        border-bottom: 0.5px solid white;
+        padding: 0px;
+        align-self: center;
+
+
+    }
+    .ticket-2 {
+        grid-area: ticket-2;
+        border-bottom: 0.5px solid white;
+        padding: 2px;
+        align-self: center;
+    }
+    .ticket-3 {
+        grid-area: ticket-3;
+        border-bottom: 0.5px solid white;
+        padding: 2px;
+        align-self: center;
+
+    }
+    .ticket-4 {
+        grid-area: ticket-4;
+        padding: 2px;
+        border-bottom: 0.5px solid white;
+        align-self: center;
+        
+    }
+
+   
+
+
     /*STORE GRID*/
 
     /*GRIDS CDS*/
